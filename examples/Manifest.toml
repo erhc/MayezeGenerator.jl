@@ -2,7 +2,7 @@
 
 julia_version = "1.8.1"
 manifest_format = "2.0"
-project_hash = "7fc590d58a9fa73aea8d689bd9df484c60fc40bd"
+project_hash = "ffac9f3b8e8c3a82632e542dae88842f5d63676e"
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
@@ -251,8 +251,8 @@ deps = ["Base64"]
 uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 
 [[deps.MazeGenerator]]
-deps = ["Colors", "DataStructures", "PlotlyJS", "Random", "Test"]
-git-tree-sha1 = "e8be3e10c8d6d1a4e9f96c21f7e1dd59866c0430"
+deps = ["DataStructures", "PlotlyJS", "Random"]
+git-tree-sha1 = "5681adc98405f99f0242362d151313e91bb6b9e5"
 repo-rev = "master"
 repo-url = "https://github.com/erhc/MazeGenerator.jl"
 uuid = "8d1c55a9-7552-4d79-926d-7b730889ec9e"
