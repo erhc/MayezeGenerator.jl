@@ -40,6 +40,6 @@ end
 
 @testset "Maze Tests" begin
     @test length(generateMaze(10, 10)[1]) == (2*10 - 1)^2
-    @test isSolvable(generateMaze(10, 10, 10)...)
-    @test hasNoIsolatedRooms(generateMaze(10, 10, 10)[1])
+    @test isSolvable(generateMaze(10, 10)...)
+    @test hasNoIsolatedRooms(generateMaze(10, 10)[1])
 end

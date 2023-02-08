@@ -1,4 +1,4 @@
-using .MazeGenerator
+using MazeGenerator
 
 maze, start, goal = generateMaze(10, 10)
 
